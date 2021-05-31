@@ -6,6 +6,9 @@ body {
 
 /* title section */
 
+.container-fluid {
+  padding-bottom: 5%;
+}
 
 h2 {
   line-height: 1.5;
@@ -17,24 +20,29 @@ h2 {
 
 .title-block {
   position: relative;
-  padding: 100px 50px;
+  padding: 50px 50px;
   width: 50%;
 }
 
-
+i {
+  padding: 2%;
+}
 
 .mission {
   position: relative;
   width: 50%;
-  padding: 210px 100px 100px 100px;
+  padding: 33%  5% 5% 10%;
   text-align: left;
 }
 
 span {
- padding: 5% 3%;
+ padding: 2% 3% 2% 0;
  text-align: left;
 }
 
+span:hover {
+  color: black;
+}
 
 .tel {
   text-align: left;
@@ -44,6 +52,9 @@ span {
 .profile-image {
   width: 15%;
   float: right;
+  position: absolute;
+  bottom: 100px;
+  padding: 3%;
 }
 
 a {
@@ -54,15 +65,14 @@ a {
 a:hover {
   color: black;
 }
-span:hover {
-  color: black;
-}
+
 i:hover {
   color: black;
 }
 
 .icon {
     color: rgb(209, 113, 34);
+    padding: 2%;
 }
 
 /* heading section */
@@ -73,12 +83,13 @@ i:hover {
 
 /* footer section */
 .footer-contact {
-  padding: 3% 7% 0;
+  padding: 3% 7% 1%;
   text-align: left;
 }
 
 .web-design-link {
   font-size: 0.5;
+  text-align: right;
 }
 
 /*  text colour rgb(209, 113, 34); */
