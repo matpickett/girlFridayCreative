@@ -25,13 +25,13 @@ h2 {
 }
 
 i {
-  padding: 2%;
+  padding: 10px;
 }
 
 .mission {
   position: relative;
   width: 50%;
-  padding: 33%  5% 5% 10%;
+  padding: 31%  5% 5% 10%;
   text-align: left;
 }
 
@@ -69,25 +69,23 @@ a:hover {
 i:hover {
   color: black;
 }
+p {
+  margin-bottom: 0;
+}
 
 .icon {
     color: rgb(209, 113, 34);
-    padding: 2%;
+
 }
-
-/* heading section */
-
-
-/* gallery1 section */
 
 
 /* footer section */
 .footer-contact {
-  padding: 3% 7% 1%;
-  text-align: left;
+  padding: 1% 7% 1%;
+  display: inline-block;
 }
 
-.web-design-link {
+p .web-design-link {
   font-size: 0.5;
   text-align: right;
 }
