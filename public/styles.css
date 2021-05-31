@@ -1,0 +1,84 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+/* title section */
+
+
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+  color: rgb(209, 113, 34);
+  font-family: Moontime;
+  font-weight: 400;
+}
+
+.title-block {
+  position: relative;
+  padding: 100px 50px;
+  width: 50%;
+}
+
+
+
+.mission {
+  position: relative;
+  width: 50%;
+  padding: 210px 100px 100px 100px;
+  text-align: left;
+}
+
+span {
+ padding: 5% 3%;
+ text-align: left;
+}
+
+
+.tel {
+  text-align: left;
+  padding: 5% 3%;
+}
+
+.profile-image {
+  width: 15%;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: black;
+}
+span:hover {
+  color: black;
+}
+i:hover {
+  color: black;
+}
+
+.icon {
+    color: rgb(209, 113, 34);
+}
+
+/* heading section */
+
+
+/* gallery1 section */
+
+
+/* footer section */
+.footer-contact {
+  padding: 3% 7% 0;
+  text-align: left;
+}
+
+.web-design-link {
+  font-size: 0.5;
+}
+
+/*  text colour rgb(209, 113, 34); */
